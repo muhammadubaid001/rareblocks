@@ -1,6 +1,6 @@
-import {Fragment} from "react";
+import {FC, Fragment} from "react";
 
-export const Work = () => {
+export const Work: FC = () => {
     return (
         <Fragment>
             {/* Work Section */}

@@ -1,4 +1,9 @@
-export const MobileNavbar = ({ expanded }) => {
+import {FC} from "react";
+
+interface IProps {
+    expanded: boolean
+}
+export const MobileNavbar: FC<IProps> = ({ expanded }) => {
     return (
         <nav className={expanded ? '': 'hidden'}>
             <div className="px-1 py-8">

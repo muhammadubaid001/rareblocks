@@ -1,4 +1,6 @@
-export const Hero = () => {
+import {FC} from "react";
+
+export const Hero: FC = () => {
     return (
         <section className="pt-12 bg-gray-50 sm:pt-16">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">

@@ -1,7 +1,8 @@
 import {Fragment} from "react";
-import {Header, Hero, Brands, Work, Task, Features, Footer, Customers} from "../components/Home";
+import {Header, Hero, Brands, Work, Task, Features, Footer, Customers} from "@/components/Home";
+import {NextPage} from "next";
 
-export default function Home() {
+const Home: NextPage  = () =>  {
     return (
         <Fragment>
             <div className="overflow-x-hidden bg-gray-50">
@@ -17,3 +18,5 @@ export default function Home() {
         </Fragment>
     )
 }
+
+export default Home

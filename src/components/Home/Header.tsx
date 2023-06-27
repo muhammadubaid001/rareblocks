@@ -1,8 +1,8 @@
-import {useState} from "react";
+import {FC, useState} from "react";
 import { MobileNavbar } from "./MobileNavbar";
 
-export const Header = () => {
-    const [expanded, setExpanded] = useState(false)
+export const Header: FC = () => {
+    const [expanded, setExpanded] = useState<boolean>(false)
 
     return (
         <header className="py-4 md:py-6">

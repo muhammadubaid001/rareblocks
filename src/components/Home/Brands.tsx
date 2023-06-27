@@ -1,4 +1,6 @@
-export const Brands = () => {
+import {FC} from "react";
+
+export const Brands: FC = () => {
     return (
         <section className="py-12 bg-white sm:py-16 lg:py-20">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
